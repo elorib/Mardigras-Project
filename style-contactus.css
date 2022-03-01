@@ -1,0 +1,112 @@
+.bg-primary {
+  background: #f2cc0f !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+.mardi-logo {
+  text-align: center;
+  -webkit-margin-after: 50px;
+          margin-block-end: 50px;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+header {
+  -webkit-margin-after: 180px;
+          margin-block-end: 180px;
+}
+
+#home-link {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+#home-link:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#contactus-link {
+  color: black;
+}
+
+input {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  text-align: center;
+  -webkit-margin-after: 5px;
+          margin-block-end: 5px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 0.8em;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  font-size: 0.8em;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+::-ms-input-placeholder {
+  font-size: 0.8em;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+::placeholder {
+  font-size: 0.8em;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  label {
+    display: none;
+  }
+}
+
+.contact-details {
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+  text-align: center;
+}
+/*# sourceMappingURL=style-contactus.css.map */

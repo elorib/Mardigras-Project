@@ -1,0 +1,155 @@
+.bg-primary {
+  background: #f2cc0f !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 6px 3px #000000;
+  font-size: 5em;
+}
+
+.mardi-logo {
+  text-align: center;
+  -webkit-margin-after: 50px;
+          margin-block-end: 50px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.background-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-margin-after: 100px;
+          margin-block-end: 100px;
+  -webkit-margin-before: 100px;
+          margin-block-start: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.7));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: solid #f2cc0f 3px;
+  text-align: center;
+}
+
+.mardigras-info {
+  font-size: 2em;
+  color: white;
+}
+
+article.row {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#cards-header {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+div > div.carousel-inner {
+  height: 100%;
+  max-height: 1500px;
+}
+
+body > div.container-fluid {
+  margin: 100px 0 100px 0;
+}
+
+a {
+  font-family: "Pattaya";
+}
+
+div.card {
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+#first-card-div {
+  margin-bottom: 50px;
+}
+
+#cards-div-container {
+  border: 1px gray solid;
+  padding: 20px;
+}
+
+#cards-header {
+  font-family: "Pattaya";
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+#continue-to-about {
+  font-size: 1.8em;
+}
+
+.picture-alternative {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+  .picture-alternative {
+    display: block;
+  }
+  .article-image {
+    display: none;
+  }
+}
+
+.card {
+  width: 20%;
+}
+
+#home-link {
+  position: relative;
+  top: -5px;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

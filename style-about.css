@@ -1,0 +1,110 @@
+.bg-primary {
+  background: #f2cc0f !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+.mardi-logo {
+  text-align: center;
+  -webkit-margin-after: 50px;
+          margin-block-end: 50px;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+header {
+  -webkit-margin-after: 150px;
+          margin-block-end: 150px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.background-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-margin-after: 100px;
+          margin-block-end: 100px;
+  -webkit-margin-before: 100px;
+          margin-block-start: 100px;
+  margin: 100px 85px 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.7));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: solid #9453a6 3px;
+  text-align: center;
+  padding: 20px;
+}
+
+.mardigras-info {
+  font-size: 1em;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+#about-us-link {
+  color: black;
+  position: relative;
+  top: -5px;
+}
+
+#home-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+@media screen and (max-width: 700px) {
+  .background-information {
+    width: 90vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style-about.css.map */

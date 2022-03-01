@@ -1,0 +1,115 @@
+// Global CSS
+
+$primary-color: #f2cc0f;
+$secondary-color: #8cbf3f;
+$mardi-pink: #9453a6;
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+.mardi-logo {
+  text-align: center;
+  margin-block-end: 50px;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+header {
+  margin-block-end: 150px;
+}
+
+// Global CSS
+
+h1 {
+  text-align: center;
+  margin-block-end: 50px;
+}
+
+.gallery-div {
+  margin-block-end: 100px;
+}
+
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-div img {
+  cursor: pointer;
+  height: 270px;
+  width: 300px;
+  border-radius: 5px;
+  margin-block-end: 50px;
+  margin-inline-start: 15px;
+  flex-grow: 1;
+}
+
+#lightbox img {
+  width: 550px;
+  height: 500px;
+  padding: 4px;
+  background-color: black;
+  border: white solid 2px;
+}
+
+.gallery-div img:hover {
+  transform: scale(1.1);
+}
+
+.video-div {
+  margin-block-end: 50px;
+}
+
+#media-link {
+  position: relative;
+  top: -5px;
+  color: black;
+}
+
+#home-link {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+#home-link:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}

@@ -1,0 +1,141 @@
+$primary-color: #f2cc0f;
+$secondary-color: #8c1f3f;
+$mardi-pink: #9453a6;
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 6px 3px #000000;
+  font-size: 5em;
+}
+
+.mardi-logo {
+  text-align: center;
+  margin-block-end: 50px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.background-information {
+  display: flex;
+  width: 100vw;
+  margin-block-end: 100px;
+  margin-block-start: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: row;
+  border: solid $primary-color 3px;
+  text-align: center;
+}
+
+.mardigras-info {
+  font-size: 2em;
+  color: white;
+}
+
+article.row {
+  text-align: center;
+  flex-grow: 1;
+}
+
+#cards-header {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+div > div.carousel-inner {
+  height: 100%;
+  max-height: 1500px;
+}
+
+body > div.container-fluid {
+  margin: 100px 0 100px 0;
+}
+
+a {
+  font-family: "Pattaya";
+}
+
+div.card {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+#first-card-div {
+  margin-bottom: 50px;
+}
+
+#cards-div-container {
+  border: 1px gray solid;
+  padding: 20px;
+}
+
+#cards-header {
+  font-family: "Pattaya";
+  margin-block-end: 30px;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+#continue-to-about {
+  font-size: 1.8em;
+}
+
+.picture-alternative {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+  .picture-alternative {
+    display: block;
+  }
+  .article-image {
+    display: none;
+  }
+}
+
+.card {
+  width: 20%;
+}
+
+#home-link {
+  position: relative;
+  top: -5px;
+  color: black;
+}

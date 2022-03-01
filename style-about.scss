@@ -1,0 +1,98 @@
+// Global CSS
+
+$primary-color: #f2cc0f;
+$secondary-color: #8cbf3f;
+$mardi-pink: #9453a6;
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+.mardi-logo {
+  text-align: center;
+  margin-block-end: 50px;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+header {
+  margin-block-end: 150px;
+}
+
+// Global CSS
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.background-information {
+  display: flex;
+  margin-block-end: 100px;
+  margin-block-start: 100px;
+  margin: 100px 85px 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  flex-direction: row;
+  border: solid $mardi-pink 3px;
+  text-align: center;
+  padding: 20px;
+}
+
+.mardigras-info {
+  font-size: 1em;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+#about-us-link {
+  color: black;
+  position: relative;
+  top: -5px;
+}
+
+#home-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+@media screen and (max-width: 700px) {
+  .background-information {
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,91 @@
+// Global CSS
+
+$primary-color: #f2cc0f;
+$secondary-color: #8cbf3f;
+$mardi-pink: #9453a6;
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+body {
+  background-color: wheat;
+  font-family: "Pattaya";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body > .navbar {
+  padding: 15px 0 15px 0;
+}
+
+.mardi-logo {
+  text-align: center;
+  margin-block-end: 50px;
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 0 20px 0;
+}
+
+ul > li > a.nav-link:hover {
+  position: relative;
+  top: -5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(177, 177, 177, 0.466);
+  border-top: gray 1px solid;
+}
+
+header {
+  margin-block-end: 180px;
+}
+
+#home-link {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+#home-link:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+// Global CSS
+
+#contactus-link {
+  color: black;
+}
+
+input {
+  margin-block-end: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-block-end: 5px;
+}
+
+::placeholder {
+  font-size: 0.8em;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  label {
+    display: none;
+  }
+}
+
+.contact-details {
+  margin-block-start: 50px;
+  text-align: center;
+}

@@ -7,18 +7,36 @@ body {
   font-family: "Pattaya";
 }
 
-p {
-  font-family: "Roboto", sans-serif;
+.navbar {
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.94);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.94);
 }
 
-body > .navbar {
-  padding: 15px 0 15px 0;
+.navbar-toggler {
+  float: right;
+  position: relative;
+  top: 25px;
+}
+
+.navbar > .container-fluid {
+  display: block;
+}
+
+#navbarSupportedContent {
+  float: right;
+  top: 15px;
+  position: relative;
+  direction: rtl;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .mardi-logo {
   text-align: center;
   -webkit-margin-after: 50px;
-  margin-block-end: 50px;
+          margin-block-end: 50px;
 }
 
 .nav-link {
@@ -32,15 +50,14 @@ ul > li > a.nav-link:hover {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
   background-color: rgba(177, 177, 177, 0.466);
+  text-align: center;
   border-top: gray 1px solid;
 }
 
 header {
   -webkit-margin-after: 180px;
-  margin-block-end: 180px;
+          margin-block-end: 180px;
 }
 
 #home-link {

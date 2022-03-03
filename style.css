@@ -2,13 +2,31 @@
   background: #f2cc0f !important;
 }
 
+.navbar-toggler {
+  float: right;
+  position: relative;
+  top: 25px;
+}
+
 body {
   background-color: wheat;
   font-family: "Pattaya";
 }
 
-body > .navbar {
-  padding: 15px 0 15px 0;
+.navbar {
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.94);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.94);
+}
+
+.navbar > .container-fluid {
+  display: block;
+}
+
+#navbarSupportedContent {
+  float: right;
+  top: 15px;
+  position: relative;
+  direction: rtl;
 }
 
 h1 {
@@ -39,13 +57,6 @@ p {
           margin-block-start: 100px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)));
   background: linear-gradient(rgba(0, 0, 0, 0.7));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   border: solid #f2cc0f 3px;
   text-align: center;
 }
@@ -128,7 +139,16 @@ ul > li > a.nav-link:hover {
 }
 
 .picture-alternative {
+  background-image: url(/Pictures/mardigras-image6.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: none;
+}
+
+.picture-alternative > img {
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {
@@ -141,10 +161,6 @@ ul > li > a.nav-link:hover {
   .article-image {
     display: none;
   }
-}
-
-.card {
-  width: 20%;
 }
 
 #home-link {
